@@ -47,8 +47,17 @@ for cliente in clientes:
 #EXERCICIO 5: Trocar a morada do cliente1 com o cliente2
 
 moradacliente1 = clientes["cliente1"]
-moradacliente2 = clientes["cliente2"]
+moradacliente3 = clientes["cliente3"]
 
-moradacliente1
+morada1 = moradacliente1["morada"]
+morada3 = moradacliente3["morada"]
+moradatemp = morada1
+morada1 = morada3
+morada3 = moradatemp
+
+
+
+print("uhkb"+str(morada1))
+print("uhkb"+str(morada3))
 
 
